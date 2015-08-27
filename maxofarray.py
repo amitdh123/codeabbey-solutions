@@ -11,6 +11,6 @@ def maxMinOfArray(items):
 	resultlist.append(min)
 	return resultlist
 
-array = [5,6,6,1,8,34,98,54,23,7,1,4,110,267,42,142,78,98,5,7]
+array = [5,6,6,-1,8,34,98,54,23,7,1,4,110,267,42,142,78,98,5,7]
 result = maxMinOfArray(array)
 print(result)
