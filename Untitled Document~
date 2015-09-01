@@ -1,0 +1,15 @@
+class ClassName:
+   def __init__(self , name)
+       self.name = name
+
+   def my-name(self):
+       print(self.name)
+
+   def __new__(cls)
+
+@decorator
+def log(func)
+  print(func.__name__ + 'is called')
+  print(func())
+
+
